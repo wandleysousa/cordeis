@@ -1,32 +1,108 @@
 @charset "utf-8";
-/*body{
+body{
     background-image: url('../img/maxresdefault.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    min-width: 350px;
+    min-width: 200px;
     position: relative;
-}*/
+}
 
 main{
-    border: 1px solid black;
+    
     box-shadow: 4px 2px 6px black;
     margin: auto;
     width: 1050px;
     text-align: center;
-    margin-top: 150px;
+    min-width: 200px;
    }
 header{
     background-color: black;
+    border: 1px solid white;
     color: white;
-    padding-top: 7px;
-    padding-bottom: 33px;
-   
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 150px;
+    min-width: 200px;
 }
 h1{
     padding-bottom: 0px;
     margin-bottom: 0px;
+    font-size: 3em;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgba(74, 131, 133, 0.671);
+    text-decoration: underline;
+    border-radius: 5px;
+    padding: 3px;
+}
+p{
+    text-indent: 25px;
+}
+#p1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.9em;
+    width: 250px;
+    min-width: 200px;
+    height: 400px;
+    position: absolute;
+
+    left: 24%;
+    top:8%;
+}
+#p2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.9em;
+    width: 250px;
+    min-width: 200px;
+    height: 400px;
+    position: absolute;
+
+    left: 24%;
+    top:26%;
+}
+#p3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.9em;
+    width: 350px;
+    min-width: 200px;
+    height: 400px;
+    position: absolute;
+
+    left: 24%;
+    top:45%;
+}
+#p4{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.9em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.589);
+    width: 300px;
+    min-width: 200px;
+    height: 400px;
+    position: absolute;
+
+    left: 24%;
+    top: 65%;
+    
+
+}
+#p5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.9em;
+    width: 350px;
+    min-width: 200px;
+    height: 400px;
+    position: absolute;
+
+    left: 24%;
+    top:82%;
 }
 
 section{
@@ -35,9 +111,8 @@ section{
 }
 article{
     background-color: white;
-    height: 750px;
+    height: 850px;
     text-align: left;
-    te
 }
 #a1{
     background-image: url('../img/background001.jpg');
