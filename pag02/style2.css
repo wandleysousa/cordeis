@@ -36,12 +36,14 @@ section{
 article{
     background-color: white;
     height: 750px;
+    text-align: left;
+    te
 }
 #a1{
     background-image: url('../img/background001.jpg');
     background-attachment: fixed;
     background-position: right right;
-    background-size: cover;
+    
     height: 750px;
     width: 1050px;
 
