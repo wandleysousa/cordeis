@@ -27,9 +27,9 @@ main{
     
     box-shadow: 4px 2px 6px black;
     margin: auto;
-    width: 1050px;
     text-align: center;
-    min-width: 200px;
+    max-width: 120vh;
+    min-width: 10vh;
    }
 header{
     background-color: black;
@@ -38,7 +38,7 @@ header{
     padding-top: 50px;
     padding-bottom: 50px;
     height: 150px;
-    max-width: 100vh;
+    max-width: 120vh;
     min-width:10vh;
     font-variant: small-caps;
 }
@@ -63,49 +63,51 @@ p{
 #p1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 3vh;
-    width: 50vh;
-    min-width: 5vh;
+    max-width: 100vh;
+    min-width:10vh;
+    line-height: 1.5em;
     
-    height: 400px;
     position: absolute;
 
-    left: 24%;
+    padding-left: 15px;
     top:8%;
 }
 #p2{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 3vh;
-    width: 50vh;
-    min-width: 5vh;
-    height: 400px;
+    max-width: 100vh;
+    min-width:10vh;
+    
+    line-height: 1.5em;
     position: absolute;
 
-    left: 24%;
+    padding-left: 15px;
     top:26%;
 }
 #p3{
     font-family: 'Courier New', Courier, monospace;
     font-size: 3vh;
-    width: 50vh;
-    min-width: 5vh;
-    height: 400px;
+    max-width: 100vh;
+    min-width:10vh;
+    
+    line-height: 1.5em;
     position: absolute;
-
-    left: 24%;
+    padding-left: 15px;
     top:45%;
 }
 #p4{
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.589);
     font-size: 3vh;
-    width: 50vh;
-    min-width: 15vh;
-    height: 400px;
+    max-width: 100vh;
+    min-width:10vh;
+    
+    line-height: 1.5em;
     position: absolute;
 
-    left: 24%;
+    padding-left: 15px;
     top: 65%;
     
 
@@ -113,23 +115,33 @@ p{
 #p5{
     font-family: 'Courier New', Courier, monospace;
     font-size: 3vh;
-    width: 50vh;
-    min-width: 5vh;
-    height: 400px;
+    max-width: 100vh;
+    min-width:10vh;
+
+    line-height: 1.5em;
     position: absolute;
 
-    left: 24%;
+    padding-left: 15px;
     top:82%;
 }
+#p6{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vh;
+    max-width: 100vh;
+    min-width:10vh;
 
-section{
-    background-color: white;
-    width: 1050px;
+    line-height: 1.5em;
+    position: absolute;
+
+    padding-left: 15px;
+    top:90%;
 }
+
 article{
     background-color: white;
     height: 850px;
     text-align: left;
+    min-width: 5vh;
 }
 #a1{
     background-image: url('../img/background001.jpg');
@@ -138,8 +150,8 @@ article{
 
     
     height: 750px;
-    max-width: 1050px;
-    min-width: 250px;
+    max-width: 120vh;
+    min-width:10vh;
 
 }
 #a2{
@@ -148,9 +160,6 @@ article{
     background-position: bottom right;
     background-size: cover;
     height: 750px;
-    max-width: 1050px;
-    min-width: 250px;
-}
-p{
-    height:max-content ;
+    max-width: 120vh;
+    min-width:10vh;
 }
