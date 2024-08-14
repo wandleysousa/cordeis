@@ -35,10 +35,12 @@ header{
     background-color: black;
     border: 1px solid white;
     color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     height: 150px;
-    min-width: 200px;
+    max-width: 100vh;
+    min-width:10vh;
+    font-variant: small-caps;
 }
 h1{
     padding-bottom: 0px;
@@ -60,9 +62,10 @@ p{
 }
 #p1{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.9em;
-    width: 250px;
-    min-width: 200px;
+    font-size: 3vh;
+    width: 50vh;
+    min-width: 5vh;
+    
     height: 400px;
     position: absolute;
 
@@ -72,9 +75,9 @@ p{
 #p2{
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.9em;
-    width: 250px;
-    min-width: 200px;
+    font-size: 3vh;
+    width: 50vh;
+    min-width: 5vh;
     height: 400px;
     position: absolute;
 
@@ -83,9 +86,9 @@ p{
 }
 #p3{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.9em;
-    width: 350px;
-    min-width: 200px;
+    font-size: 3vh;
+    width: 50vh;
+    min-width: 5vh;
     height: 400px;
     position: absolute;
 
@@ -95,10 +98,10 @@ p{
 #p4{
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.9em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.589);
-    width: 300px;
-    min-width: 200px;
+    font-size: 3vh;
+    width: 50vh;
+    min-width: 15vh;
     height: 400px;
     position: absolute;
 
@@ -109,9 +112,9 @@ p{
 }
 #p5{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.9em;
-    width: 350px;
-    min-width: 200px;
+    font-size: 3vh;
+    width: 50vh;
+    min-width: 5vh;
     height: 400px;
     position: absolute;
 
@@ -131,17 +134,23 @@ article{
 #a1{
     background-image: url('../img/background001.jpg');
     background-attachment: fixed;
-    background-position: right right;
+    background-position: bottom right;
+
     
     height: 750px;
-    width: 1050px;
+    max-width: 1050px;
+    min-width: 250px;
 
 }
 #a2{
     background-image: url('../img/background002.jpg');
     background-attachment: fixed;
-    background-position: right right;
+    background-position: bottom right;
     background-size: cover;
     height: 750px;
-    width: 1050px;
+    max-width: 1050px;
+    min-width: 250px;
+}
+p{
+    height:max-content ;
 }
