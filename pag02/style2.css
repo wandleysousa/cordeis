@@ -145,13 +145,15 @@ article{
 }
 #a1{
     background-image: url('../img/background001.jpg');
+    background-size: cover;
+    background-position: right center;
     background-attachment: fixed;
-    background-position: bottom right;
 
     
     height: 750px;
     max-width: 120vh;
     min-width:10vh;
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.61);
 
 }
 #a2{
@@ -162,4 +164,5 @@ article{
     height: 750px;
     max-width: 120vh;
     min-width:10vh;
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.61);
 }
