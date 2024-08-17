@@ -166,3 +166,17 @@ article{
     min-width:10vh;
     box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.61);
 }
+footer{
+    width: 100.8%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.425);
+    text-align: center;
+    margin: 0px;
+
+    position:absolute;
+    top: 59%;
+    left: 50%;
+
+    transform: translate(-50%, 3619%);
+    
+}
