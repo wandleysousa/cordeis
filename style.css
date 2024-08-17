@@ -61,7 +61,7 @@ footer{
     width: 100.8%;
     color: white;
     background-color: rgba(0, 0, 0, 0.425);
-    text-align: right;
+    text-align: center;
     margin: 0px;
 
     position:absolute;
@@ -70,6 +70,11 @@ footer{
 
     transform: translate(-50%, 3619%);
     
+}
+footer > a{
+    text-decoration: none;
+    color: white;
+    text-transform: lowercase;
 }
 p{
     padding: 5px 12px;
