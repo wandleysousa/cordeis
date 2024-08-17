@@ -57,11 +57,17 @@ article{
     min-width: 350px;
     max-width: 1200px;
 }
+a:hover{
+    background-color: rgba(74, 131, 133, 0.671);
+    text-decoration: underline;
+    border-radius: 5px;
+    padding: 3px;
+}
 footer{
     width: 100.8%;
     color: white;
     background-color: rgba(0, 0, 0, 0.425);
-    text-align: right;
+    text-align: center;
     margin: 0px;
 
     position:absolute;
@@ -70,6 +76,11 @@ footer{
 
     transform: translate(-50%, 3619%);
     
+}
+footer > p> a{
+    text-decoration: none;
+    color: white;
+    text-transform: lowercase;
 }
 p{
     padding: 5px 12px;
